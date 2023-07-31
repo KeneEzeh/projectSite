@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body{
+      background-image: url('static/images/market place.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  </style>
+  <head>
+    <title>AGRO TRADE</title>
+    <link href="{{url_for('static', filename='css/index.css')}}" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <ul>
+          <li><a href="{{url_for('login')}}">LOGIN</a></li>
+          <li><a href="{{url_for('register')}}">SIGN UP</a></li>
+          <li><a href="{{url_for('about')}}">ABOUT</a></li>
+        </ul>
+      </div>
+      <div class="title">
+        <h1> AGRO STORES </h1>
+        <h2 style="color: white;">BUY AND SELL YOUR AGRICULTURAL PRODUCE WITH US HERE @ AGRO TRADE, GREAT AND AFFORDABLE PRICES!!</h2>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family:times'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/market place.jpg');
+    height: 100vh;background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+} 
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.actve a{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+.title h1{
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+}
+.button{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
